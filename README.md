@@ -1,5 +1,5 @@
 # Cambiador de plan de energía para Windows 10
-Script simple para cambiar de plan de energía con un solo click desde la barra de tareas.
+Script simple para cambiar de plan de energía con un solo click desde la barra de tareas, reduciendo la temperatura y el consumo eléctrico del procesador. 
 
 ![imagen](https://github.com/ismeh/w10_cambiar_plan_energia/assets/81519191/af5e5721-18cc-4406-b20e-6ccc9c42c974)
 
