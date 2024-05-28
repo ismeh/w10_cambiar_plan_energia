@@ -1,5 +1,3 @@
-rem Para cambiar el plan de energía mediante comandos tenecesitamos conocer el identificador del plan (GUID), usaremos 'powercfg /list' desde la terminal para ver los planes disponibles. En este caso he hardcodeado los GUID de dichos planes.
-
 set plan_equilibrado=381b4222-f694-41f0-9685-ff5bb260df2e
 set plan_bajo_rendimiento=b54f4c31-cb06-4429-b20a-9c60c8fae77e
 
@@ -16,7 +14,3 @@ if "%plan_actual%"=="%plan_equilibrado%" (
     msg * /time:1 "Cambiando al plan equilibrado."
     powercfg /S %plan_equilibrado%
 )
-
-
-rem timeout /t 50 >nu
-
