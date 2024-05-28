@@ -17,11 +17,13 @@ Para añadir el script a la barra de tareas debemos crear un acceso directo (Cli
 
 Abrimos las propiedades del acceso directo (Click derecho -> Propiedades)
 
-Añadimos '''cmd /c''' en el destino
+Añadimos '''cmd /c''' en el destino, esto nos permitirá que el acceso directo pueda anclarse a la barra de tareas.
 
 ![imagen](https://github.com/ismeh/w10_cambiar_plan_energia/assets/81519191/1a615e47-54f3-4a60-bb38-53b1f34bc7cc)
 
 Podemos cambiar el icono de la terminal desde las propiedades en 'Cambiar icono', para ello debemos utilizar un archivo .ico del sistema o bien descargar uno de internet. El que he utilizado yo se encuentra en la bibliografía.
+
+Tras esto solo nos queda arrastras el acceso directo hacia la barra de tareas.
 
 
 ### Mi plan de energía
